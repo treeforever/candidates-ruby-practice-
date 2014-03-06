@@ -1,21 +1,25 @@
 Candidates
 ==========
 
-You are trying to recruit team members for your new startup!
+Congratulations! You just raised a seed round of $1M and are now trying to recruit developers for your new tech startup. We have a list of candidates that have applied and need to write a program to help us determine which are qualified.
 
-**Note:** Before you start, remember that you're encouraged to write code outside (after) your methods to test out their behaviour.  
+For the first time, we are writing a multi-file program that uses `require` to load dependencies and is also dependent on a few gems.
 
-### Warmup Questions
+The program also defines the Candidates collection as `@candidates` not `candidates`. This is how instance variables are defined. Since we are using multiple files and local variables are not available outside a given file, one of our options is to use instance variables to make sure that the `@candidates` array is available to the `main.rb` file.
+
+### Warmup
+
+Take some time to get acquainted with the code
 
 1. List out the ruby files that are loaded (required) when we run `ruby main.rb`
 2. What does the `pp` method do? How is it different from `puts` (try it out!)?
-3. Why is ActiveSupport being used (what happens if we take it out)?.
+3. Why is ActiveSupport being used (what happens if we take it out)?
 
 ### Task 1 - Practice with Pry
 
 Uncomment the `binding.pry` call in `main.rb` and run the `main.rb` code.
 
-Try checking what the variable `@candidates` evaluates to. Tip: since the output will be longer than what can fit on the terminal, it will le t you use arrow keys or space bar to go down
+Try checking what the variable `@candidates` evaluates to. Tip: since the output will be longer than what can fit on the terminal, it will le t you use arrow keys or space bar to go down.
 
 ### Task 2 - Experienced Candidates
 
