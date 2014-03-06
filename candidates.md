@@ -7,11 +7,9 @@ You are trying to recruit team members for your new startup!
 
 ### Warmup Questions
 
-List out the ruby files that are loaded (required) when we run `ruby main.rb`
-
-What does the `pp` method do? How is it different from `puts` (try it out!)?
-
-Why is ActiveSupport being used (what happens if we take it out?).
+1. List out the ruby files that are loaded (required) when we run `ruby main.rb`
+2. What does the `pp` method do? How is it different from `puts` (try it out!)?
+3. Why is ActiveSupport being used (what happens if we take it out)?.
 
 ### Task 1 - Practice with Pry
 
