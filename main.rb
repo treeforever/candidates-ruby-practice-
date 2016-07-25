@@ -9,4 +9,4 @@ require './filters'
 
 # binding.pry
 
-pp qualified_candidates
+pp @candidates
